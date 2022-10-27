@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<style>
+    .header {
+        color: rgb(122, 9, 86);
+        padding: 50px;
+        background-color: antiquewhite;
+        }
+    nav{
+        background-color: rgb(246, 221, 190);
+        padding: 14px 16px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px; 
+    }
+    nav a{
+        padding: 10px 10px 10px;
+    }
+    nav a:hover{
+        background-color:rgb(238, 199, 140);
+    }
+    footer{
+        background-color:rgb(238, 199, 140);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .Contact__Card {
+        width: 600px;
+        height: 500px;
+        border: 1px solid lightgray;
+        border-radius: 1rem;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 150px 1fr;
+        display: flex;
+        display: flexbox;
+        flex-direction: row;
+        }
+
+    .Input__Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 5%;
+        width: 40%;
+        
+        }
+
+        .Input__Container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        padding-left: 5%;
+        width: 40%;
+        position: absolute;
+        margin-left: 40%;
+        margin-top: -135PX;
+        
+        }
+
+        .Input__Container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid red;
+        }
+        
+        .Input__Container4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        padding-left: 5%;
+        width: 40%;
+        position: absolute;
+        margin-left: 40%;
+        margin-top: -135px;
+        }
+
+        .Input__Container3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 5%;
+        width: 40%;
+        margin-top: -50px;
+        }
+    
+
+    .Text__Container {
+        grid-column: span 2;
+        margin-top: -50PX;
+        }
+
+    .Button__Container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        }
+
+    .Input {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        overflow: visible;
+        padding-bottom: 0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-top: 0.5rem;
+        border: 2px solid lightblue;
+        border-radius: 0.5rem;
+        width: 100%;
+        }
+
+        .Input:focus {
+        outline: none;
+        box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
+        }
+
+        .Message {
+        resize: none;
+        }
+
+        .Label {
+        padding-bottom: 0.25rem;
+        font-weight: 600;
+        }
+
+        .Button {
+        background-color: darkblue;
+        border-color: #dbdbdb;
+        border-width: 1px;
+        color: white;
+        font-weight: 600;
+        border-radius: 0.5rem;
+        padding: 1rem 1.5rem;
+        }
+
+        .Button:hover {
+        border-color: #b5b5b5;
+        }
+
+        .Button:focus {
+        outline: none;
+        border-color: #485fc7;
+        color: #363636;
+        box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
+        }
+
+        @media screen {
+        .Input__Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 5%;
+        width: 40%;
+        
+        }
+
+        .Input__Container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        padding-left: 5%;
+        width: 40%;
+        position: absolute;
+        margin-left: 40%;
+        margin-top: -80PX;
+        
+        }
+
+        .Input__Container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid red;
+        }
+        
+        .Input__Container4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        padding-left: 5%;
+        width: 40%;
+        position: absolute;
+        margin-left: 40%;
+        margin-top: -80px;
+        }
+
+        .Input__Container3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 5%;
+        width: 40%;
+        margin-top: -0px;
+        }
+        
+    .Text__Container {
+        grid-column: span 2;
+        margin-top: 10PX;
+        }
+
+    
+        }        
+        </style>
+
+<body>
+    <header class="header">
+        <h1 style="font-size: 50px; text-align: center;">HI, Saya Nazwa AD!</h1>
+        <p style="text-align: center;">Computer Science Student at Pertamina University</p>
+    </header>
+    <nav class="navigasi">
+    
+        <a style="color: rgb(122, 9, 86);" href="/PraktikumWEB-3.html">Home</a> 
+        <a style="color: rgb(122, 9, 86)" href="/biodata.html">Biodata</a>
+        <a style="color: rgb(122, 9, 86)" href="/contact.html">Contact Me</a>  
+        
+    </nav>
+    <section>
+        <hr size="1" width="100%" color="black" lang="100">
+        <h2>Contact Me</h2>
+        <form >
+            <div class="Contact_card">
+                <div class="Input__Container">
+                    <label for="first-name" class="Label">First Name</label>
+                    <input
+                      name="first-name"
+                      class="Input"
+                      type="text"
+                      placeholder="Enter Your First Name"
+                      required
+                    />
+                  </div>
+                  <div class="Input__Container2">
+                    <label for="last-name" class="Label">Last Name</label>
+                    <input
+                      name="last-name"
+                      class="Input"
+                      type="text"
+                      placeholder="Enter Your Last Name"
+                      required
+                    />
+                </div>
+                <div class="Input__Container3">
+                  <label for="email" class="Label">Email</label>
+                  <input
+                    name="email"
+                    class="Input"
+                    type="email"
+                    placeholder="Enter your email.."
+                    required
+                  />
+                </div>
+                <div class="Input__Container4">
+                  <label for="phone" class="Label">Phone</label>
+                  <input name="phone" class="Input" type="tel" placeholder="Enter your Number phone" />
+                </div>
+                <div class="Text__Container">
+                  <label for="message" class="Label">Message</label>
+                  <textarea
+                    class="Input Message"
+                    rows="5"
+                    name="message"
+                    placeholder="Enter your message.."
+                    required
+                  ></textarea>
+                </div>
+                <div class="Button__Container">
+                  <button type="submit" class="Button">Send</button>
+                </div>
+            </div>
+
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2022 Nazwa Aliya Divani.</p>
+    </footer>
+</body>
+</html>
